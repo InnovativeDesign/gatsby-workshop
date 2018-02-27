@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source%20Code%20Pro);
+
+body {
+  background-color: #55CDEC;
+}
+
+.reveal h1 {
+  font-size: 3em;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: Karla, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+}
+
+.reveal h3 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.reveal code, .reveal pre, .reveal h3 {
+  font-family: "Source Code Pro", monospace;
+}
+
+.logo {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  z-index: 9999;
+}
+
+.reveal .controls {
+  left: 120px;
+  right: auto;
+}
+
+.reveal .slide-background.stack 
+> .slide-background:not(:first-child) {
+  background-color: white;
+  text-align: left;
+}
+
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) {
+  /*margin-left: -10%;
+  margin-top: -10%;*/
+  text-align: left;
+}
+
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) h1 {
+  font-size: 48pt;
+  margin-left: 200px;
+}
+
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) h1::after {
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  background-color: #55CDEC;
+  content: '';
+  z-index: -1;
+  left: -30px;
+  top: -10px;
+}
+
+
+
+

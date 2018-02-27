@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/simple.css">
+    <link rel="stylesheet" href="innod-web-style.css">
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="slides.md"  
+          data-separator="---\n\n"  
+          data-separator-vertical="\*\*\*\n\n"  
+          data-separator-notes="^Note:"  
+          data-charset="utf-8">
+        </section>
+      </div>
+      <div class="logo">
+        <img src="assets/logo__icon.svg" />
+      </div>
+    </div>
+    <script src="reveal.js/lib/js/head.min.js"></script>
+    <script src="reveal.js/js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        dependencies: [
+            {
+              src: 'reveal.js/plugin/markdown/marked.js',
+              condition: function() { return !!document.querySelector( '[data-markdown]' ); }
+            },
+            {
+              src: 'reveal.js/plugin/markdown/markdown.js',
+              condition: function() { return !!document.querySelector( '[data-markdown]' );}
+            },
+            {
+              src: 'reveal.js/plugin/highlight/highlight.js',
+              async: true,
+              callback: function() { hljs.initHighlightingOnLoad(); }
+            },
+        ]
+      });
+    </script>
+  </body>
+</html>

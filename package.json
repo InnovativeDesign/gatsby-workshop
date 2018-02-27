@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reveal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnovativeDesign/gatsby-workshop.git"
+  },
+  "author": "Ethan Lee <ethanl@berkeley.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnovativeDesign/gatsby-workshop/issues"
+  },
+  "homepage": "https://github.com/InnovativeDesign/gatsby-workshop#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
