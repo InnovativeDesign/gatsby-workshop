@@ -252,4 +252,4 @@ Create a repository on GitHub and push a new Gatsby starter project to it!
 
 # Take-home assignment
 
-Using this new Gatsby project, create a 
+Using this new Gatsby project,
